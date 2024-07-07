@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./menu.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Base de Datos NoSQL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a><a href="#" class="brand-logo text-decoration-none"><i class="fa-solid fa-database"></i> <span>BD NoSQL</span></a></header>
+            <nav class="dashboard-nav-list">
+                <a href="#" class="dashboard-nav-item active text-decoration-none fw-bold"><i class="fas fa-home"></i> Home </a>
+                <a href="./documentales.html" class="dashboard-nav-item text-decoration-none fw-bold"><i class="fa-solid fa-file-invoice"></i>Documentales</a>
+                <a href="./clavevalor.html" class="dashboard-nav-item text-decoration-none fw-bold"><i class="fa-solid fa-clone"></i>Clave-Valor</a>
+                <a href="./orientadaacolumnas.html" class="dashboard-nav-item text-decoration-none fw-bold"><i class="fa-solid fa-table-list"></i>Orientada a Columnas</a>
+                <a href="./grafos.html" class="dashboard-nav-item text-decoration-none fw-bold"><i class="fa-solid fa-diagram-project"></i>Grafos</a>
+              <div class="nav-item-divider"></div>
+              <a href="./index.html" class="dashboard-nav-item text-decoration-none fw-bold"><i class="fas fa-sign-out-alt"></i> Logout </a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar'><a href="#!" class="menu-toggle text-decoration-none"><i class="fas fa-bars"></i></a></header>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class='card'>
+                        <div class='card-header'>
+                            <h1 class="fw-bold">Bases de Datos NoSQL</h1>
+                        </div>
+                        <div class='card-body'>
+                            <div class="row">
+                                <div class="col-md-6 text-center mt-5">
+                                    <p>Las bases de datos NoSQL están diseñadas específicamente para modelos de datos específicos y almacenan los datos en esquemas flexibles que se escalan con facilidad para aplicaciones modernas. Las bases de datos NoSQL son ampliamente reconocidas porque son fáciles de desarrollar, por su funcionalidad y el rendimiento a escala. Esta página incluye recursos que lo ayudan a comprender mejor las bases de datos NoSQL y comenzar a usarlas.<br>
+                                        Las bases de datos NoSQL son un tipo de base de datos no relacional que almacena datos de forma flexible y escalable. A diferencia de las bases de datos relacionales tradicionales, que utilizan un modelo de tablas y filas, las bases de datos NoSQL pueden almacenar datos en una variedad de formatos, incluyendo documentos, JSON, grafos y clave-valor.<br>
+                                    </p>
+                                </div>
+                                <div class="col-md-6 text-center mt-3">
+                                    <img src="./img/BD - Nosql - home.png" width="500" height="400">
+                                </div>
+                            </div>
+
+
+                            <h3 class="fw-bold mt-4 text-center">¿Cuáles son las ventajas de las bases de datos NoSQL?</h3>
+                            <p class="text-center">Las aplicaciones modernas se enfrentan a varios desafíos que las bases de datos NoSQL pueden resolver. Por ejemplo, las aplicaciones procesan un gran volumen de datos de fuentes dispares, como las redes sociales, los sensores inteligentes y las bases de datos de terceros. Todos estos datos dispares no encajan perfectamente en el modelo relacional. La aplicación de estructuras tabulares puede provocar redundancia, duplicación de datos y problemas de rendimiento a escala.<br>
+                                Las bases de datos NoSQL están diseñadas específicamente para modelos de datos no relacionales y tienen esquemas flexibles para crear aplicaciones modernas. Son ampliamente reconocidas por su facilidad de desarrollo, su funcionalidad y el rendimiento a escala. <br>
+                            </p>
+
+                            <h6 class="fw-bold text-center">Flexibilidad</h6>
+                            <p class="text-center">Las bases de datos NoSQL generalmente ofrecen esquemas flexibles que permiten un desarrollo más rápido y más iterativo. El modelo de datos flexible hace que las bases de datos NoSQL sean ideales para datos semiestructurados y no estructurados.</p>
+
+                            <h6 class="fw-bold text-center">Escalabilidad</h6>
+                            <p class="text-center">Las bases de datos NoSQL generalmente están diseñadas para escalar horizontalmente usando clústeres distribuidos de hardware, en lugar de escalar añadiendo servidores caros y sólidos. Algunos proveedores de la nube manejan estas operaciones en segundo plano, como un servicio completamente administrado.</p>
+
+                            <h6 class="fw-bold text-center">Alto rendimiento</h6>
+                            <p class="text-center">Las bases de datos NoSQL están optimizadas para modelos de datos y patrones de acceso específicos. Esto permite un mayor rendimiento que si intentara lograr una funcionalidad similar con bases de datos relacionales.</p>
+
+                            <h6 class="fw-bold text-center">Altamente funcional</h6>
+                            <p class="text-center">Las bases de datos NoSQL proporcionan API altamente funcionales y tipos de datos que están diseñados específicamente para cada uno de sus respectivos modelos de datos.</p>
+
+                            
+                            <h3 class="fw-bold mt-4 text-center">¿Cuáles son los casos de uso de las bases de datos NoSQL?</h3>
+                            <p class="text-center">Puede usar bases de datos NoSQL para crear una amplia variedad de aplicaciones móviles, de Internet of Things (Internet de las cosas (IoT)), de juegos y web de alto rendimiento que proporcionan excelentes experiencias de usuario a escala. La gama de bases de datos NoSQL y sus respectivos casos de uso son muy variados. Si bien es difícil presentar un conjunto representativo de casos de uso, a continuación proporcionamos algunos ejemplos ilustrativos para iniciar la reflexión y lo alentamos a obtener más información sobre cada base de datos NoSQL y sus respectivos casos de uso.</p>
+
+                            <h6 class="fw-bold text-center">Administración de datos en tiempo real</h6>
+                            <p class="text-center">Puede ofrecer recomendaciones en tiempo real, personalización y experiencias de usuario mejoradas con bases de datos NoSQL. Por ejemplo, Disney+ ofrece su amplia biblioteca de contenido digital a más de 150 millones de suscriptores mediante la tecnología de base de datos NoSQL. Puede escalar y ofrecer funciones populares, como Seguir viendo, Mi lista y Recomendaciones personalizadas con Amazon DynamoDB.</p>
+
+                            <h6 class="fw-bold text-center">Seguridad en la nube</h6>
+                            <p class="text-center">Puede usar bases de datos de grafos para descubrir rápidamente relaciones complejas en sus datos. Por ejemplo, Wiz reimaginó la seguridad en la nube como un gráfico con Amazon Neptune. Wiz ayuda a sus clientes a mejorar su postura de seguridad al identificar y corregir rápidamente los riesgos más críticos. Utilizan un modelo gráfico almacenado en Amazon Neptune para descubrir la combinación tóxica de factores de riesgo que representan riesgos críticos. Los motores de riesgo de Wiz recorren el gráfico y, en cuestión de segundos, entrelazan una serie de factores de riesgo interconectados en un gráfico de seguridad.</p>
+
+                            <h6 class="fw-bold text-center">Aplicaciones de alta disponibilidad</h6>
+                            <p class="text-center">Las bases de datos NoSQL distribuidas son excelentes para crear aplicaciones de alta disponibilidad y baja latencia para mensajería, redes sociales, uso compartido de archivos y más. Por ejemplo, Snapchat tiene más de 290 millones de usuarios que envían miles de millones de imágenes y mensajes de video a diario. Utiliza sistemas de bases de datos NoSQL para reducir la latencia media del envío de mensajes en un 20 %.</p>
+                            
+
+                            <h3 class="fw-bold mt-4 text-center">¿Cómo funcionan las bases de datos NoSQL?</h3>
+                            <p class="text-center">Las bases de datos NoSQL utilizan una variedad de modelos de datos para acceder y administrar datos. Estos tipos de bases de datos están optimizados específicamente para aplicaciones que requieren modelos de datos flexibles, grandes volúmenes de datos y baja latencia, lo que se logra mediante la flexibilización de algunas de las restricciones de coherencia de datos en bases de datos relacionales. Existen diferencias en la implementación según el modelo de datos. Sin embargo, muchas bases de datos NoSQL utilizan Javascript Object Notation (JSON), un formato de intercambio de datos abierto que representa los datos como una colección de pares nombre-valor.</p>
+
+                            <h5 class="fw-bold mt-4 text-center">Ejemplo de base de datos NoSQL</h5>
+                            <p class="text-center">En una base de datos relacional, un registro de libros a menudo se enmascara (o “normaliza”) y se almacena en tablas separadas, y las relaciones se definen mediante restricciones de claves primarias y externas. En este ejemplo, la tabla Libros tiene las columnas ISBN, Título del libro y Número de edición, la tabla Autores tiene las columnas IDAutor y Nombre de autor y, finalmente, la tabla Autor-ISBN tiene las columnas IDAutor e ISBN. El modelo relacional está diseñado para permitir que la base de datos aplique la integridad referencial entre tablas en la base de datos, la cual está normalizada para reducir la redundancia y, generalmente, está optimizada para el almacenamiento.<br><br>
+                                En una base de datos NoSQL, un registro de libros generalmente se almacena como un documento. Para cada libro, el elemento, ISBN, Título del libro, Número de edición, Nombre del autor y AuthorID se almacenan como atributos en un solo documento. En este modelo, los datos están optimizados para un desarrollo intuitivo y una escalabilidad horizontal.
+                            </p>
+
+
+                            <h3 class="fw-bold mt-4 text-center">Terminología de SQL en comparación con NoSQL</h3>
+                            <p class="text-center">La siguiente tabla compara la terminología utilizada por las bases de datos NoSQL seleccionadas con la terminología utilizada por las bases de datos SQL.</p>
+                            <div class="text-center"><img src="./img/tabla.png" width="600" height="300"></div>
+
+
+                            <h3 class="fw-bold mt-4 text-center">¿Cuáles son los tipos de bases de datos NoSQL?</h3>
+                            <h5 class="fw-bold mt-4 text-center">Base de datos de clave-valor</h5>
+                            <p class="text-center">Las bases de datos de clave-valor son altamente particionables y permiten un escalado horizontal en niveles que otros tipos de bases de datos NoSQL no pueden lograr. Una base de datos de clave-valor almacena datos como un conjunto de pares clave-valor en los que una clave sirve como un identificador único. Las claves y los valores pueden ser cualquier cosa, desde objetos simples hasta objetos compuestos complejos. Los casos de uso como juegos, tecnología publicitaria e IoT se prestan particularmente bien con el diseño de datos de almacén clave-valor. Amazon DynamoDB está diseñado para proporcionar un rendimiento constante con una latencia de milisegundos de un solo dígito para cualquier escala de cargas de trabajo. </p>
+
+                            <h5 class="fw-bold mt-4 text-center">Base de datos de documentos</h5>
+                            <p class="text-center">Las bases de datos de documentos tienen el mismo formato de modelo de documento que los desarrolladores utilizan en el código de sus aplicaciones. Almacenan los datos como objetos JSON que son flexibles, semiestructurados y de naturaleza jerárquica. La naturaleza flexible, semiestructurada y jerárquica de los documentos y las bases de datos de documentos permite que evolucionen según las necesidades de las aplicaciones. El modelo de base de datos de documentos funciona bien con catálogos, perfiles de usuario y sistemas de administración de contenido en los que cada documento es único y evoluciona con el tiempo. Amazon DocumentDB (con compatibilidad para MongoDB) y MongoDB son bases de datos de documentos conocidas que proporcionan unas API poderosas e intuitivas para un desarrollo flexible e iterativo.</p>
+
+                            <h5 class="fw-bold mt-4 text-center">Base de datos de grafos</h5>
+                            <p class="text-center">El objetivo de las bases de datos de grafos es facilitar la creación y ejecución de aplicaciones que funcionen con conjuntos de datos con un nivel alto de conexión. Usan nodos para almacenar entidades de datos y periferias para almacenar relaciones entre entidades. Un borde siempre tiene un nodo inicial, un nodo final, un tipo y una dirección. Puede describir las relaciones entre elementos principales y secundarios, las acciones, la propiedad y similares. No hay límite para la cantidad y el tipo de relaciones que un nodo puede tener. Puede usar una base de datos de grafos para crear y ejecutar aplicaciones que funcionen con conjuntos de datos con un nivel alto de conexión. Los casos de uso típicos para una base de datos de grafos incluyen redes sociales, motores de recomendaciones, detección de fraude y gráficos de conocimiento. Amazon Neptune es un servicio de base de datos de grafos totalmente administrado que admite el modelo Property Graph y el resource description framework (RDF, marco de descripción de recursos) con la opción de dos API de gráficos (TinkerPop y RDF/SPARQL).</p>
+
+                            <h5 class="fw-bold mt-4 text-center">Base de datos en memoria</h5>
+                            <p class="text-center">Mientras que otras bases de datos no relacionales almacenan datos en discos o SSD, los almacenes de datos en memoria están diseñados para eliminar la necesidad de acceder a los discos. Son ideales para aplicaciones que requieren tiempos de respuesta de microsegundos o que tienen grandes picos de tráfico. Puede usarlas en aplicaciones de juegos y tecnología publicitaria para funciones como tablas de clasificación, tiendas de sesiones y análisis en tiempo real. Amazon MemoryDB para Redis es un servicio de base de datos en memoria duradero y compatible con Redis que ofrece latencia de lectura de microsegundos, latencia de escritura de milisegundos de un solo dígito y durabilidad Multi-AZ. Amazon ElastiCache es un servicio de almacenamiento en caché en memoria completamente administrado compatible con Redis y Memcached, para atender cargas de trabajo de baja latencia y alto rendimiento. El Acelerador de Amazon DynamoDB (DAX) es otro ejemplo de un almacén de datos diseñado específicamente que hace que las lecturas de DynamoDB sean mucho más rápidas.</p>
+
+                            <h5 class="fw-bold mt-4 text-center">Buscar en bases de datos</h5>
+                            <p class="text-center">Una base de datos de motores de búsqueda es un tipo de base de datos no relacional que se dedica a la búsqueda de contenido de datos, como los registros de salida de las aplicaciones que utilizan los desarrolladores para solucionar problemas. Utilizan índices para categorizar características similares entre los datos y facilitar la capacidad de búsqueda. Las bases de datos de los motores de búsqueda están optimizadas para clasificar datos no estructurados, como imágenes y videos. Amazon OpenSearch Service está diseñado para proporcionar visualizaciones en tiempo real y análisis de datos generados por máquinas al indexar, agregar y buscar registros y métricas semiestructuradas.</p>
+
+
+                            <h3 class="fw-bold mt-4 text-center">¿Cuáles son las diferencias entre las bases de datos NoSQL y SQL?</h3>
+                            <p class="text-center">Durante décadas, el modelo de datos predominante en el desarrollo de aplicaciones fue el modelo de datos relacionales que almacenaba los datos en tablas compuestas por filas y columnas. Se utilizó Structured Query Language (SQL, lenguaje de consulta estructurado) para crear y editar estas tablas relacionales. Las bases de datos SQL modelan las relaciones de datos como tablas. Las filas de la tabla representan una recopilación de valores relacionados de un objeto o una entidad. Cada columna de la tabla representa un atributo de los datos, y un campo (o celda de la tabla) almacena el valor real del atributo. Puede usar un relational database management system (RDBMS, sistema de administración de bases de datos relacionales) para acceder a los datos de muchas maneras diferentes sin tener que reorganizar las propias tablas de la base de datos.<br>
+                                No fue sino hasta mediados y finales de la década del 2000 que otros modelos de datos flexibles comenzaron a adoptarse y aumentó su uso significativamente. Para diferenciar y categorizar estas nuevas clases de bases de datos y modelos de datos, se acuñó el término NoSQL. NoSQL significa no solo SQL o sin SQL. Con frecuencia, los términos NoSQL y no relacional se usan indistintamente. 
+                            </p>
+                            <div class="text-center"><img src="./img/tabla1.png" width="600" height="300"></div>
+                            <div class="text-center"><img src="./img/tabla2.png" width="600" height="300"></div>
+                            <div class="text-center"><img src="./img/tabla3.png" width="600" height="300"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
